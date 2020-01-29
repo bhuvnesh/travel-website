@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px ;
+  text-align: center;
+  color: #fff;
+}
+
+.header img {
+  width: 190px;
+  float: left;
+}
+
+.login-btn {
+  width:100px;
+  padding: 8px 0;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: right;
+}
+
+.header h1 {
+  padding-top: 200px;
+  padding-bottom: 0;
+  font-size: 55px;
+}
+
+.header p {
+  margin: 18px 0;
+}
+
+.input-group {
+  width: 90% !important;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #FFF;
+  margin: auto;
+  padding: 2px;
+}
+
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#00ff7e,#1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none;
+}
+
+/* Features */
+
+.features {
+  padding: 100px 0;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.price {
+  width: 50px;
+  height: 50px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37,73, 214, 0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.feature-details {
+  padding: 20px;
+  text-align: justify;
+
+}
+
+.features .fa {
+  color: #ff5722;
+  font-size: 15px;
+}
+
+.feature-details h4 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.feature-details .fa {
+  margin-right: 5px;
+}
+
+.feature-box {
+  box-shadow: 0 0 10px 1px rgba(37,73, 214, 0.18);
+  margin-bottom: 30px;
+}
+
+.gallery {
+  padding: 100px 0;
+  background: #efefef;
+}
+
+.gallery-box {
+  margin-bottom: 30px;
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.15);
+}
+
+.banner {
+  height: 80%;
+  background-image: url(images/banner2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 10%;
+}
+
+.banner-highlights {
+  padding: 70px 0;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  color: #fff;
+}
+
+.booking-btn {
+  width:100px;
+  padding: 8px 0;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer {
+  padding: 100px 20px 10px;
+  background-image: linear-gradient(#2d557d,#9610fb);
+  color: #fff;
+}
+
+.footer-logo {
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.footer p {
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
+}
+
+.footer .row .fa {
+  font-size: 12px;
+  margin-bottom: 8.5px;
+}
+
+.footer hr {
+  margin-top: 10px;
+  background: #efefef;
+}
+
+.footer .copyright {
+  text-align: right;
+}
